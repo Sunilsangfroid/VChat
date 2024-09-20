@@ -19,10 +19,10 @@ export const metadata: Metadata = {
   description: "Realtime chat app using NextJS",
   generator: "Next.js",
   manifest: "/manifest.json",
-  authors: [{ name: "Amin Darabnia" }],
+  authors: [{ name: "Ch. Sunil Patra" }],
   icons: [
-    { rel: "apple-touch-icon", url: "icon-192x192.png" },
-    { rel: "icon", url: "icon-192x192.png" },
+    { rel: "apple-touch-icon", url: "fav-icon.png" },
+    { rel: "icon", url: "fav-icon.png" },
   ],
 };
 export default function RootLayout({

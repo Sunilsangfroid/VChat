@@ -45,7 +45,7 @@ const Message = ({
       >
         <div
           className={cn("px-4 py-2 rounded-lg max-w-[70%]", {
-            "bg-primary text-primary-foreground": fromCurrentUser,
+            "bg-blue-400 text-primary-foreground": fromCurrentUser,
             "bg-secondary text-secondary-foreground": !fromCurrentUser,
             "rounded-br-none": !lastByUser && fromCurrentUser,
             "rounded-bl-none": !lastByUser && !fromCurrentUser,

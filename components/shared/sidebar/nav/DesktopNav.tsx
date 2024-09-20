@@ -17,9 +17,9 @@ const DesktopNav = () => {
   const paths = useNavigation();
 
   return (
-    <Card className="hidden lg:flex lg:flex-col lg:justify-between lg:items-center lg:h-full lg:w-16 lg:px-2 lg:py-4">
+    <Card className="hidden lg:flex lg:flex-col lg:justify-between lg:items-center lg:h-full lg:w-16 lg:px-2 lg:py-4 bg-[#cbd5e1]">
       <nav>
-        <ul className="flex flex-col items-center gap-4">
+        <ul className="flex flex-col items-center gap-4 ">
           {paths.map((path, id) => {
             return (
               <li key={id} className="relative">

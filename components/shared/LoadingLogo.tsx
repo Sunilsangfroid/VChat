@@ -5,15 +5,15 @@ type Props = {
   size?: number;
 };
 
-const LoadingLogo = ({ size = 100 }: Props) => {
+const LoadingLogo = ({ size = 200 }: Props) => {
   return (
     <div className="w-full h-full flex justify-center items-center">
       <Image
-        src="logo.svg"
+        src="logo-black.svg"
         alt="logo"
         width={size}
         height={size}
-        className="animate-pulse duration-700"
+        className="animate-bounce duration-700"
       />
     </div>
   );
