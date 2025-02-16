@@ -58,3 +58,26 @@ The UI follows the **Atomic Design** methodology, ensuring that the components a
 ```bash
 git clone https://github.com/Sunilsangfroid/VChat.git
 cd chat-app
+```
+#### 2. Install Dependencies
+```bash
+npm install
+```
+### Running the Application
+
+#### 1. Start the Backend Server
+```bash
+npm run dev
+```
+#### 2. Building the Application
+```bash
+npm run build
+```
+#### 3. Start the Production Server
+```bash
+npm start
+```
+
+
+
+
